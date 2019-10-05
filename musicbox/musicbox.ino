@@ -10,7 +10,7 @@ Button buttonMelodyOne(PIN_BUTTON_MEL_ONE);
 Button buttonOff(PIN_BUTTON_OFF);
 Buzzer buzzer(PIN_BUZZER);
 
-int notes[] = {NOTE_A4, NOTE_SILENCE, NOTE_G4, NOTE_SILENCE};
+int notes[] = {NOTE_C3, NOTE_SILENCE, NOTE_A1, NOTE_SILENCE};
 double durations[] = {8, 1, 4, 1};
 int melodyLength = 4;
 
